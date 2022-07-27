@@ -7,7 +7,7 @@
 .header {
   /* background-color: rgba(255, 255, 255, 0.8); */
   background-color: white;
-  background-image: url('./../img/headerBg2.jpg');
+  /* background-image: url('./../img/headerBg2.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -24,4 +24,235 @@
 #menu {
   font-size: 22px;
   margin: 20px;
+}
+
+.header {
+  padding: 1px 20px;
+}
+
+.header--content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--content--title {
+  display: flex;
+  flex-direction: column;
+}
+
+.header--content--title--greet {
+  display: flex;
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.header--content--title--main {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+
+.header--content--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 1px;
+}
+
+.header--content--text--paragraph {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: #eee;
+  border: solid 2px #fff;
+  align-self: center;
+}
+
+.header--content--time {
+  color: #222;
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.header--content--address {
+  color: #222;
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+
+.programs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs--title {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.borderLine {
+  content: '';
+  height: 1px;
+  width: 50px;
+  background-color: orangered;
+  margin-bottom: 40px;
+}
+
+.programCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #888;
+  height: 80px;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.programCard--title {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.programCard--text {
+  width: 240px;
+}
+
+.programs--button {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: orangered;
+  color: white;
+  padding: 20px 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.speakers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1px 20px;
+}
+
+.speakers--title {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.speakerCard {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.speakerCard--imageContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url('./../img/speaker_01.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+}
+
+.speakerCard--content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 2;
+}
+
+.speakerCard--content--title {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.speakerCard--content--textOne {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: orangered;
+}
+
+.borderLine2 {
+  height: 1px;
+  width: 20px;
+  background-color: #666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.speakerCard--content--textTwo {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.speakers--button {
+  text-decoration: none;
+  color: #222;
+  padding: 10px 1px;
+  width: 100%;
+  text-align: center;
+  border: solid 1px #222;
+  margin-bottom: 40px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #777;
+}
+
+.partners--title {
+  margin-top: 20px;
+}
+
+.partners--items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.footer--left {
+  flex: 1;
+  height: 100%;
+  background-image: url('./../img/creative.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer--right {
+  flex: 1;
+}
+
+.footer--right--text {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
