@@ -72,9 +72,16 @@
   font-size: 20px;
 }
 
+.topNav {
+  display: none;
+}
+
 .navbar {
   display: none;
   background-color: var(--white);
+  position: absolute;
+  top: 35px;
+  left: 0;
 }
 
 .companyLogo img {
@@ -586,6 +593,13 @@
     color: var(--gray-dark);
   }
 
+  .topNav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
   .navbar ul li a:hover {
     color: var(--orange);
   }
@@ -722,5 +736,40 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+  }
+
+  .partners--about {
+    display: none;
+  }
+
+  .footer--about {
+    background-color: rgb(0, 0, 0) !important;
+    color: var(--white);
+  }
+
+  .footer--left--about {
+    background-image: url('./../img/web-2.png');
+    height: 100px;
+  }
+
+  .topNav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15%;
+    height: 35px;
+    width: 100%;
+    background-color: var(--gray-dark);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .topNav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
   }
 }
