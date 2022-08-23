@@ -2,7 +2,7 @@
 
 # WebSummit
 
-> Microverse First Capstone Project
+> This is a landing page website for a summit which will be happening in the near future, it provides information about the summit such as what is the summit about and when will it happen and where will it happen.
 
 
 ## Built With
